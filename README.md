@@ -12,6 +12,13 @@ muRata module CMWX1ZZABZ is a dual mode LoRa/Sigfox including a low power STM32 
 * System Workbench IDE (http://www.openstm32.org/HomePage)
 * X Cube Sigfox software expansion from ST (http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32cube-expansion-packages/x-cube-sfox.html)
 
+## Prepare the hardware kit
+
+A few hardware modifications need to be done to prepare the board.
+Bridges SB13 and SB26 need to be soldered. Also jumper JP9 must be connected on pins 1 and 2:
+
+ ![Kit HW](img/kithw.jpg)
+
 ## Getting Sigfox ID and Keys for your module
 
 First step is to retrieve the specific signature of your murata module. To do so, open the X-Cube-Sfox package previously downloaded. Browse to "Projects\B-L072Z-LRWAN1\Applications\Sgfx\SignatureGenerator\" and copy SignatureGenerator.bin to your board (the board should be seen as an external drive):
