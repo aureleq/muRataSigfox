@@ -82,4 +82,4 @@ To test communication with Push Button application, push the Blue Button to send
 ## Next steps
 
 * Create your own application based on PushButton or ATCommand template
-* Load both LoRa and Sigfox stacks on same module to switch between both technologies (coming next)
+* Load both LoRa and Sigfox stacks on same module to switch between both technologies. Refer to: https://github.com/aureleq/SigfoxLoRa_Murata
