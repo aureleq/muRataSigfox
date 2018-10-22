@@ -25,7 +25,7 @@ First step is to retrieve the specific signature of your murata module. To do so
 
  ![Capt02](img/Capture02.PNG)
 
-Once the file is transferred, open the COM port using a terminal application and reboot the board. Signature will be displayed in the terminal:
+Once the file is transferred, open the COM port using a terminal (baudrate: 9600) application and reboot the board. Signature will be displayed in the terminal:
 
  ![Capt03](img/Capture03.PNG)
 
@@ -66,7 +66,7 @@ The module is now programmed with PushButton application.
 
 ## Registering board on Sigfox backend
 
-With the Push Button application loaded on the board, open the COM port in a terminal. Push the black button to display ID and PAC information of your board:
+With the Push Button application loaded on the board, open the COM port in a terminal (baudrate: 9600). Push the black button to display ID and PAC information of your board:
 
 ![Capt09](img/Capture09.PNG)
 
